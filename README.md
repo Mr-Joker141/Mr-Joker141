@@ -1,6 +1,6 @@
 # Hi there, I'm Nadun! 👋 (@Mr-Joker141)
 
-### 👨‍💻 Full Stack Developer | 🔐 Ethical Hacker 
+### 👨‍💻 Full Stack Developer
 *Based in Sri Lanka*
 
 I am a passionate developer bridging the gap between secure backend architecture and sleek frontend experiences. I specialize in building cloud-based platforms and educational tech solutions.
