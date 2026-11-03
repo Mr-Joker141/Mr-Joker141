@@ -1,7 +1,7 @@
 <!--
   ┌──────────────────────────────────────────────────────────────┐
   │  Repo: Mr-Joker141/Mr-Joker141  → this file at the root       │
-  │  Snake: .github/workflows/snake.yml (see snake.yml shipped)  │
+  │  Workflows: .github/workflows/snake.yml + stats.yml          │
   │  TODO: personal LinkedIn URL in the Connect block            │
   └──────────────────────────────────────────────────────────────┘
 -->
@@ -93,22 +93,8 @@ const nadun = {
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Mr-Joker141&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9&count_private=true&include_all_commits=true&rank_icon=github"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Mr-Joker141&show_icons=true&theme=default&hide_border=true&title_color=7c3aed&icon_color=7c3aed&count_private=true&include_all_commits=true&rank_icon=github" alt="stats"/>
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Mr-Joker141&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=8"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mr-Joker141&layout=compact&theme=default&hide_border=true&title_color=7c3aed&langs_count=8" alt="top langs"/>
-</picture>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=Mr-Joker141&theme=tokyonight&hide_border=true&background=0d1117&ring=7c3aed&fire=a78bfa&currStreakLabel=a78bfa&sideLabels=c9d1d9&dates=8b949e" alt="streak"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mr-Joker141&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ffffff&area=true&area_color=7c3aed" width="100%" alt="activity graph"/>
+<!-- Generated in-repo by .github/workflows/stats.yml (lowlighter/metrics). No third-party image hosts. -->
+<img src="https://raw.githubusercontent.com/Mr-Joker141/Mr-Joker141/main/github-metrics.svg" width="100%" alt="GitHub metrics"/>
 
 </div>
 
@@ -123,16 +109,6 @@ const nadun = {
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mr-Joker141/Mr-Joker141/output/github-contribution-grid-snake.svg"/>
   <img src="https://raw.githubusercontent.com/Mr-Joker141/Mr-Joker141/output/github-contribution-grid-snake.svg" width="100%" alt="snake"/>
 </picture>
-
-</div>
-
-<br/>
-
-## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="36"/> &nbsp;Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Mr-Joker141&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B" width="100%" alt="trophies"/>
 
 </div>
 
