@@ -1,0 +1,52 @@
+# Save as: .github/workflows/stats.yml  (in Mr-Joker141/Mr-Joker141)
+# Needs one repo secret: METRICS_TOKEN  (classic PAT, scopes: public_repo, read:user)
+#   → github.com/settings/tokens → Generate new token (classic)
+#   → repo Settings → Secrets and variables → Actions → New repository secret
+# Output: github-metrics.svg committed to main, every 6 h.
+
+name: Generate Metrics
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Generate github-metrics.svg
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Mr-Joker141
+          template: classic
+          filename: github-metrics.svg
+          output_action: commit
+          committer_message: "chore: update metrics"
+          config_timezone: Asia/Colombo
+          config_display: large
+          config_padding: 0, 10
+          base: header, activity, community, repositories, metadata
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_colors: github
+          plugin_languages_sections: most-used
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+          plugin_lines: yes
+          plugin_calendar: yes
+          plugin_calendar_limit: 2
